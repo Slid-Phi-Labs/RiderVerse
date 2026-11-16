@@ -1,0 +1,24 @@
+# Release Drafter config. Releases happen in RiderVerse (tags v*, e.g.
+# v2.1.0 latest): the drafter keeps a draft updated on pushes to main,
+# and the release-comms webhook fires when a draft is published.
+name-template: 'RiderVerse $RESOLVED_VERSION'
+tag-template: 'v$RESOLVED_VERSION'
+categories:
+  - title: Features
+    labels:
+      - feature
+      - enhancement
+  - title: Bug fixes
+    labels:
+      - bug
+      - fix
+  - title: Maintenance
+    labels:
+      - chore
+      - dependencies
+change-template: '- $TITLE @$AUTHOR (#$NUMBER)'
+change-title-escapes: '\<*_&'
+template: |
+  ## Changes
+
+  $CHANGES

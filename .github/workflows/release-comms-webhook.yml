@@ -7,9 +7,17 @@ on:
   release:
     types: [published]
   workflow_dispatch:
+# Least privilege: this job never touches the repository, so the
+# GITHUB_TOKEN gets no permissions at all.
+permissions: {}
+# Releases queue without cancel so no published release is skipped.
+concurrency:
+  group: release-comms
+  cancel-in-progress: false
 jobs:
   ping:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
       - name: Post the release on Lab Team
         env:
