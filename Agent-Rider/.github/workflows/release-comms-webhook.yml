@@ -24,7 +24,8 @@ jobs:
           import json, os, urllib.request
           key = os.environ.get("API_KEY") or ""
           if not key:
-              raise SystemExit("missing RIDER_RELEASE_API_KEY")
+              print("::warning::RIDER_RELEASE_API_KEY is not configured; skipping Lab Team post.")
+              raise SystemExit(0)
           def call(url, payload, headers):
               data = json.dumps(payload).encode()
               req = urllib.request.Request(url, data=data, headers=headers, method="POST")
