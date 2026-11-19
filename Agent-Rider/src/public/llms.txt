@@ -38,8 +38,8 @@ See: https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/PAYMENT_PATHS.md 
 - llms.txt: https://agentrider.fly.dev/llms.txt
 - One line: Agent^Rider: GET https://agentrider.fly.dev/.well-known/agent.json · MCP https://agentrider.fly.dev/api/mcp
 - Ecosystem lab commerce (x402 Solana/Base): https://www.slidphilabs.com/api/agent
-- CuNi Studio (exact multi-runtime): https://cuni-studio.fly.dev/
-- CuNi Protocol: https://cuni-studio.fly.dev/.well-known/cuni-protocol.json · https://cuni-studio.fly.dev/PROTOCOL.md
+- CuNi Studio (exact multi-runtime): https://spl-cuni-studio.fly.dev/
+- CuNi Protocol: https://spl-cuni-studio.fly.dev/.well-known/cuni-protocol.json · https://spl-cuni-studio.fly.dev/PROTOCOL.md
 - Operator join (seat → ar_ → JWT): https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/OPERATOR_JOIN.md
 - Payment paths (XPay default + credits honesty): https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/PAYMENT_PATHS.md
 

@@ -95,7 +95,7 @@
     "llms_txt": "https://agentrider.fly.dev/llms.txt",
     "agentic_commerce": "https://agentrider.fly.dev/.well-known/agentic-commerce.json",
     "lab_commerce": "https://www.slidphilabs.com/api/agent",
-    "cuni_studio": "https://cuni-studio.fly.dev/",
+    "cuni_studio": "https://spl-cuni-studio.fly.dev/",
     "networks": [
       "solana-mainnet-beta",
       "eip155:8453"
