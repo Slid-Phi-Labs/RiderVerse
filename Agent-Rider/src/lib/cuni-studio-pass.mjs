@@ -16,7 +16,7 @@
 
 export const CUNI_STUDIO_PASS_REQUIRED_ENV = "CUNI_STUDIO_PASS_REQUIRED";
 export const CUNI_STUDIO_URL_ENV = "CUNI_STUDIO_URL";
-export const DEFAULT_CUNI_STUDIO_URL = "https://cuni-studio.fly.dev";
+export const DEFAULT_CUNI_STUDIO_URL = "https://spl-cuni-studio.fly.dev";
 export const CUNI_STUDIO_PASS_DOCS =
   "https://github.com/ceedot-rock/Agent-Rider/blob/main/docs/CUNI_CITIZEN_GATE.md";
 export const CUNI_STUDIO_PASS_TIMEOUT_MS = 15_000;

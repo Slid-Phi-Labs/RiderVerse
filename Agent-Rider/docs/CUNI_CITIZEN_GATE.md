@@ -143,8 +143,8 @@ CUNI_CITIZEN_RECEIPT_REQUIRED=false
 # Rider → Studio Execute verify (POST /api/pass). Default off for safe merge.
 # After Cos GREEN: fly secrets set CUNI_STUDIO_PASS_REQUIRED=true -a agentrider
 CUNI_STUDIO_PASS_REQUIRED=false
-# Optional override (no trailing slash). Default https://cuni-studio.fly.dev
-CUNI_STUDIO_URL=https://cuni-studio.fly.dev
+# Optional override (no trailing slash). Default https://spl-cuni-studio.fly.dev
+CUNI_STUDIO_URL=https://spl-cuni-studio.fly.dev
 
 # Shared secret for Studio → Rider receipt ingest (preferred).
 # Never commit the real value. fly secrets set CUNI_STUDIO_INGEST_KEY=... -a agentrider

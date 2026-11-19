@@ -99,7 +99,7 @@ Honesty: board stamp **43.72M** · cash face `/pcc` only · `402 OK; live settle
 
 ## CuNi Integration
 
-1. Write policy in [CuNi Studio](https://cuni-studio.fly.dev/)
+1. Write policy in [CuNi Studio](https://spl-cuni-studio.fly.dev/)
 2. Run exactness check (py/go/js identical)
 3. Publish → auto-registers into Rider
 4. Agents can invoke verified exact skills
@@ -171,4 +171,4 @@ Agent^Rider: GET https://agentrider.fly.dev/.well-known/agent.json · MCP https:
 | llms.txt | https://agentrider.fly.dev/llms.txt |
 | MCP | https://agentrider.fly.dev/api/mcp |
 | Lab x402 commerce | https://www.slidphilabs.com/api/agent |
-| CuNi Studio | https://cuni-studio.fly.dev/ |
+| CuNi Studio | https://spl-cuni-studio.fly.dev/ |

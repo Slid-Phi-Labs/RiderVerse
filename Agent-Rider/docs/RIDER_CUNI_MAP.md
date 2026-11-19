@@ -15,7 +15,7 @@ Rider refuses when Studio refuses. PASS only when Studio returns PASS **and** th
 | 2 | Studio → Rider | `POST /api/v0/citizen-receipts` `{citizen_receipt, bind}` | Ingest PASS receipts (Translate → Fund → Execute) |
 | 3 | Studio → Rider | `POST /api/v0/contracts` `{source, sourceHash, exactness}` | Publish exactness-passed contracts (Studio enforces before POST) |
 
-`{studio}` = `CUNI_STUDIO_URL` or default `https://cuni-studio.fly.dev`. Timeout 15s.
+`{studio}` = `CUNI_STUDIO_URL` or default `https://spl-cuni-studio.fly.dev`. Timeout 15s.
 
 ## Gates (Rider side)
 

@@ -16,7 +16,7 @@ Date: 2026-09-26
 
 | Piece | Where |
 |---|---|
-| Studio exactness py/go/js | cuni-studio.fly.dev |
+| Studio exactness py/go/js | spl-cuni-studio.fly.dev |
 | Studio `POST /api/pass` | LIVE |
 | Studio publish → Rider `POST /api/v0/contracts` | LIVE when `CUNI_RIDER_URL` set |
 | Rider receipt ingest | `POST /api/v0/citizen-receipts` |

@@ -21,7 +21,7 @@ Live service: https://agentrider.fly.dev
 - `spl-narrow` warrants: hops may only shrink `max_cents` and `until`; the chain cannot widen a budget or extend a deadline
 - `POST /api/credits/spend` now accepts a `warrant` field; requests that exceed the warrant's spend cap are rejected with `403`
 - CuNi contract register: identity is now the SHA-256 of the source; a claimed `sourceHash` that does not match the registered hash is refused
-- Discovery endpoint points to the CuNi Protocol at `https://cuni-studio.fly.dev/.well-known/cuni-protocol.json`
+- Discovery endpoint points to the CuNi Protocol at `https://spl-cuni-studio.fly.dev/.well-known/cuni-protocol.json`
 - MCP server at `https://agentrider.fly.dev/api/mcp`
 
 ---

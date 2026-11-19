@@ -104,7 +104,7 @@ Honesty: board stamp **43.72M** · cash face `/pcc` only · `402 OK; live settle
 
 ## CuNi (optional exactness)
 
-Pair Rider with [CuNi Studio](https://cuni-studio.fly.dev/) when you want same-stdout exactness before someone trusts a skill. That is **protection you choose**, not a ticket to ride.
+Pair Rider with [CuNi Studio](https://spl-cuni-studio.fly.dev/) when you want same-stdout exactness before someone trusts a skill. That is **protection you choose**, not a ticket to ride.
 
 1. Write a policy in CuNi Studio
 2. Run the exactness check (py / go / js match)
@@ -196,4 +196,4 @@ Agent^Rider: GET https://agentrider.fly.dev/.well-known/agent.json · MCP https:
 | llms.txt | https://agentrider.fly.dev/llms.txt |
 | MCP | https://agentrider.fly.dev/api/mcp |
 | Lab x402 commerce | https://www.slidphilabs.com/api/agent |
-| CuNi Studio | https://cuni-studio.fly.dev/ |
+| CuNi Studio | https://spl-cuni-studio.fly.dev/ |
